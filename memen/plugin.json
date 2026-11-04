@@ -1,0 +1,30 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "memen",
+  "version": "0.1.0",
+  "description": "Read your day in memen (plans, to-dos, notes, time use) and log the work you do with AI",
+  "author": { "name": "Memen", "url": "https://memen.app" },
+  "homepage": "https://memen.app/ai",
+  "repository": "https://github.com/kkaiki/memen-plugins",
+  "license": "MIT",
+  "keywords": ["memen", "lifelog", "time-tracking", "todo", "mcp"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Memen",
+        "shortDescription": "Read your day and log the work you do with AI",
+        "longDescription": "Read your memen records (plans, to-dos, notes, and summaries of how you spent your time) and add the work you do with AI to your memen timeline. Raw transcripts are never available.",
+        "developerName": "Memen",
+        "category": "Productivity",
+        "capabilities": ["Read", "Write"],
+        "websiteURL": "https://memen.app",
+        "privacyPolicyURL": "https://memen.app/privacy",
+        "defaultPrompt": [
+          "Show me today in memen",
+          "Check memen for what I did yesterday afternoon",
+          "Log the work we just did to memen"
+        ]
+      }
+    }
+  }
+}

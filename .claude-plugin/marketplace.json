@@ -1,0 +1,12 @@
+{
+  "name": "memen",
+  "description": "Official Memen plugins",
+  "owner": { "name": "Memen", "url": "https://memen.app" },
+  "plugins": [
+    {
+      "name": "memen",
+      "source": "./memen",
+      "description": "Read your day in memen and log the work you do with AI"
+    }
+  ]
+}

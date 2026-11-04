@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "memen": {
+      "type": "http",
+      "url": "https://app.memen.app/api/mcp"
+    }
+  }
+}

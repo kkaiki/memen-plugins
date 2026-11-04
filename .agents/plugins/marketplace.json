@@ -1,0 +1,12 @@
+{
+  "name": "memen",
+  "interface": { "displayName": "Memen" },
+  "plugins": [
+    {
+      "name": "memen",
+      "source": { "source": "local", "path": "./memen" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Productivity"
+    }
+  ]
+}

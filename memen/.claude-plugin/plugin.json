@@ -1,0 +1,11 @@
+{
+  "name": "memen",
+  "version": "0.1.0",
+  "description": "Read your day in memen (plans, to-dos, notes, time use) and log the work you do with AI",
+  "author": { "name": "Memen", "url": "https://memen.app" },
+  "homepage": "https://memen.app/ai",
+  "repository": "https://github.com/kkaiki/memen-plugins",
+  "license": "MIT",
+  "privacyPolicyUrl": "https://memen.app/privacy",
+  "keywords": ["memen", "lifelog", "time-tracking", "todo", "mcp"]
+}
