@@ -21,14 +21,16 @@ Web版の memen にログインできるアカウントが必要です。いま�
 
 ### Claude Code
 
-1. Claude Code の中で次を実行します。
+1. ターミナルで次を実行します。
 
-   ```text
-   /plugin install memen --marketplace kkaiki/memen-plugins
+   ```bash
+   claude plugin marketplace add kkaiki/memen-plugins
+   claude plugin install memen@memen
    ```
 
-2. `/mcp` を開き、memen を選んで「Authenticate」を押します。
+2. `claude` を起動して `/mcp` を開き、memen を選んで「Authenticate」を押します。
 3. ブラウザで memen にログインし、「許可する」を押します。
+4. Mac の Claude アプリの Code タブで `/memen:setup` を打ちます。つながっているかの確認、毎晩23:00の「今日の気づき」の登録、今日の分の作成まで続けて進みます。
 
 ### Codex
 

@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "memen",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Read your day in memen (plans, to-dos, notes, time use) and log the work you do with AI",
   "author": { "name": "Memen", "url": "https://memen.app" },
   "homepage": "https://memen.app/ai",

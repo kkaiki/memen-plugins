@@ -21,14 +21,16 @@ You need a memen account you can sign in to on the web. Right now, that means an
 
 ### Claude Code
 
-1. Run this inside Claude Code:
+1. Run these in your terminal:
 
-   ```text
-   /plugin install memen --marketplace kkaiki/memen-plugins
+   ```bash
+   claude plugin marketplace add kkaiki/memen-plugins
+   claude plugin install memen@memen
    ```
 
-2. Open `/mcp`, choose memen, and press Authenticate.
+2. Run `claude`, open `/mcp`, choose memen, and press Authenticate.
 3. In the browser, sign in to memen and press Allow.
+4. In the Code tab of the Claude desktop app on your Mac, run `/memen:setup`. It checks the connection, registers the nightly insight at 23:00, and writes today's insight card right away.
 
 ### Codex
 
